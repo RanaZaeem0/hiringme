@@ -44,7 +44,12 @@ button{
     padding-left: 1vw;
 }
 /*  */
+html,body{
+    width: 100%;
+    height: 100%;
+}
 .home-section{
+    position: relative;
 
 }
 /*              nav bar */
@@ -54,10 +59,10 @@ button{
     
   }
 .page1{
-    height: 100vh;
+    height: 76vh;
     width: 94%;
     padding-left: 5%;
-    position: relative;
+    /* position: relative; */
     top: 90px;
 }
 .page1-text{
@@ -100,8 +105,8 @@ button{
 /*                                 page 2  */
 
 .page2{
-    height: 114vh;
-    position: relative;
+    height: 52vh;
+    /* position: relative; */
     width: 100%;
     display: flex;
     background-color: var(--bg-purple);
@@ -158,7 +163,7 @@ font-size: 1.6vw;
 .page3{
     height: 260vh;
     background-color: var(--bg-purple);
-    position: relative;
+    /* position: relative; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -179,7 +184,7 @@ font-weight: 700;
         width: 100%;
         background-color: var(--bg-purple);
         text-align: center;
-        position: relative;
+        /* position: relative; */
 
     }
     .page4-2content{
@@ -202,7 +207,7 @@ flex-direction: column;
         height: 60vh;
         width: 100%;
    background: linear-gradient(180deg,#4d3bdb 0%,#9747ff 100%);
-        position: relative;
+        /* position: relative; */
         display: flex;
         align-items: center;
         justify-content: space-between;
