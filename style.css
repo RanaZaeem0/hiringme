@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --mn-color:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,82,121,1) 14%, rgba(0,212,255,1) 100%);
+    --bg-white:rgb(61, 84, 186);
+    --main-color:#3030ff;
+}
+/*                           utility */
+h2 span{
+    color: var(--main-color);
+    font-size: 3.4vw;
+    font-weight: 700;
+}
+.text-content{
+    text-align: center;
+}
+.text-content h3{
+    font-size: 2vw;
+    font-weight: 500;
+}
+.text-content h4{
+    color: rgb(49, 48, 48);
+    font-weight: 500;
+}
+.text-content h2{
+    font-size: 3.4vw;
+    font-weight: 700;
+
+}
+.text-content h2 span{
+    color: var(--main-color);
+}
+.text-content p{
+    font-weight: 500;
+    text-align: start;
+    padding-left: 1vw;
+}
+
+/*              nav bar */
+.navbar-brand img{
+    height: 43px;
+    width: 79%;
+    
+  }
+.page1{
+    height: 91vh;
+    width: 94%;
+    padding-left: 5%;
+    position: relative;
+    top: 90px;
+}
+.page1-text{
+    width: 70%;
+}
+
+.page1-text h1{
+    color: var(--main-color);
+    font-size: 6vw;
+  font-weight: 700;
+}
+.page1-text p{
+    font-weight: 500;
+}
+.page1-input{
+    width: 70%;
+}
+.page1-input input{
+    width: 80%;
+}
+.page1-input form{
+    display: flex;
+    justify-content: space-between;
+}
+.page1-text2{
+    position: relative;
+    top: 20px;
+}
+.page1-text2 h2{
+    color: var(--main-color);
+    font-size: 3vw;
+    font-weight: 600;
+}
+.page1-text2 .buttons button{
+    border: 1px solid blue;
+    border-radius: 40px;
+    color: blue;
+    font-weight: 600;
+}
+/*                                 page 2  */
+
+.page2{
+    height: 57vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.page2 img{
+    width: 100%;
+    height:50vh;
+}
+.page2-text h2 span{
+    color:var(--main-color) ;
+}
+.page2-text h2{
+    font-size: 3.4vw;
+    font-weight: 700;
+}
+.page-boxs {
+    display: flex;
+    width: 92%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vh;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 4%;
+}
+.page-boxs .box{
+    height: 100%;
+    position: relative;
+    top: 30px;
+    width: 24%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 12px -10px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(73, 73, 239);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.page-boxs .box:hover{
+    box-shadow:0px 0px 12px -6px ;
+}
+.page-boxs .box h3{
+    color: var(--main-color);
+    font-weight: 600;
+}
+.page-boxs .box i{
+font-size: 1.6vw;
+}
+/*                                            page3 */
+.page3{
+    height: 260vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.page3 h2 {
+font-size: 4vw;
+font-weight: 700;
+}
+.page3 h2 span{
+    font-size: 4vw;
+    }
+    /*                             page 4 */
+    .page4{
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
